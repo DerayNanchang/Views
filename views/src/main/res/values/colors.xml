@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="gone">#00000000</color>
+    <color name="customGray">#dbdbdb</color>
+    <color name="b8">#b8b8b8</color>
+    <color name="homeSelectTypeBGCT">#D2D2D2</color>
+    <color name="white">#ffffff</color>
+    <color name="black00">#000000</color>
+</resources>

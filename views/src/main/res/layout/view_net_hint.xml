@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:background="#fbe1dd"
+              android:gravity="center_vertical"
+              android:layout_height="50dp">
+
+    <ImageView
+            android:id="@+id/ivWarningIcon"
+            android:layout_height="22dp"
+            android:layout_width="22dp"
+            android:layout_marginStart="15dp"
+            android:src="@mipmap/warning"/>
+
+    <TextView
+            android:id="@+id/tvWarningMsg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:text="当前网络不可用，请检查设备网络"/>
+
+</LinearLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/rl_root"
+
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <ImageView
+            android:id="@+id/ivMeIcon"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp" />
+
+
+        <TextView
+            android:id="@+id/tvMeTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/ivMeIcon"
+            android:text="检查更新"
+            android:textColor="#6E6E6E"
+
+            />
+
+        <TextView
+            android:id="@+id/tvMeNew"
+            android:layout_width="35dp"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="30dp"
+            android:layout_toRightOf="@id/tvMeTitle"
+            android:background="@drawable/me_item_view_bg"
+            android:gravity="center"
+            android:text="new"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:visibility="gone"
+
+            />
+
+        <TextView
+            android:id="@+id/tvMeVersion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:textSize="12sp"
+            android:textColor="#9F9F9F"
+            />
+
+        <View
+            android:id="@+id/vMeBottomLine"
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/homeSelectTypeBGCT"
+            />
+    </RelativeLayout>
+

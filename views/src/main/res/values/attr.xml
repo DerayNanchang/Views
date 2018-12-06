@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomViewPage">
+        <attr name="isCanScroll" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="CustomEditText">
+        <attr name="setLeftIcon" format="reference"/>
+        <attr name="setHint" format="string"/>
+        <attr name="setCursorVisible" format="reference"/>
+        <attr name="setDeleteIcon" format="reference"/>
+        <attr name="setInputType" format="enum">
+            <enum name="text" value="0"/>
+            <enum name="number" value="1"/>
+            <enum name="password" value="2"/>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="NetHintView">
+        <attr name="setWarningMsg" format="string"/>
+        <attr name="setWarningIcon" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="CustomItemView">
+        <attr name="setTitle" format="string"/>
+        <attr name="setVersion" format="string"/>
+        <attr name="newShow" format="boolean"/>
+        <attr name="bottomLine" format="boolean"/>
+        <attr name="setIcon" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="SlideView">
+        <attr name="setTextColor" format="color"/>
+        <attr name="setTextSize" format="dimension"/>
+    </declare-styleable>
+</resources>
